@@ -26,5 +26,20 @@ Prerequisites:
 
 ![](processdata.png)
 
+**3. Create a CVS file.**
 
+`nano data.cvs`
+
+![](datafile.png)
+
+**4. Create a Dockerfile.**
+
+The Dockerfile is a text document that contains all the commands needed to assemble the Docker image. 
+This file tells Docker how to set up the environment in which our script will run.
+Create a file named Dockerfile in the same directory `process_data.py`
+
+
+`nano dockerfile`
+
+![](dockerfile2)
 
