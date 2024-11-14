@@ -128,5 +128,6 @@ You should see the output:
 **Conclusion:**
 
 You learned to create a Dockerfile, a txt file, and a CVS file, build and run a Docker image. With these skills, you're well on your way to containerizing applications in any environment.
+
 Dockerizing applications is a powerful skill that boosts the scalability and portability of your projects - valuable traits in any DevOps role.
 
