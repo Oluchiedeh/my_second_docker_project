@@ -41,5 +41,19 @@ Create a file named Dockerfile in the same directory `process_data.py`
 
 `nano dockerfile`
 
-![](dockerfile2)
+![](dockerfile2.png)
+
+**Here's a breakdown of each line:*
+- FROM: Specifies the base image to use for the container. We're using Python 3.9 (the slim version is a smaller, minimal image).
+- WORKDIR: Sets the working directory in the container to /app.
+- RUN: Installs Python dependencies
+- COPY: Copys the project files into the container
+- CMD: Defines the command that runs when the container starts - in this case, it will run. process_data.py
+
+
+**5. Create a requirements.txt file.**
+
+The requirements.txt file specifies the Python dependencies required by the script:
+
+`nano requirements.txt`
 
