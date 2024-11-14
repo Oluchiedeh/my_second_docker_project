@@ -24,7 +24,7 @@ Prerequisites:
 
 `nano process_data.py`
 
-![](processdate.png)
+![](processdata.png)
 
 
 
